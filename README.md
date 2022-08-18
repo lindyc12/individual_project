@@ -14,11 +14,11 @@ There are some questions that can be answered using this data such as:
 |Attribute | Value| Dtype|
 |----------|:----:|-----:|
 |Age band  | Age band of driver and caualty | Int64|
-|Driving_experience | Number of bathrooms in home | Float|
-|Bedrooms  | Number of bedrooms | Float|
-|Sqft      | Calculated total finished living area of the home | Float|
-|Cola      | Where properties are located | Int|
-|Fips      | Federal Information Processing Standard Code | Float|
+|Driving_experience | Number band for driving | Int64|
+|Area_accident_occured | Where accident happened | Int64|
+|Light_conditions | How dark it was | Int64|
+|Number_of_vehicles_involved | Number is cars in accident | Int64|
+|Number_of_casualties  | Federal Information Processing Standard Code | Float|
 |$ per sqft| How many dollars per sqft | Float|
 |Latitude  | Latitude of property | Float|
 |Longitude | Longitude of property | Float|

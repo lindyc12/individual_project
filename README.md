@@ -14,9 +14,9 @@ To Reproducing Findings:
 - Store that env file in the same repository. 
 - Clone my repository along with the acquire.py and prepare.py. You should be able to run Casualty_prediction.
 
-
-Data Dictionary:
-|----------------|
+-------------------
+|Data Dictionary: |
+|----------|----|
 |Attribute | Value| Dtype|
 |----------|:----:|-----:|
 |Age band  | Age band of driver and caualty | Int64|

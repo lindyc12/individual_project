@@ -1,4 +1,5 @@
 from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.model_selection import train_test_split
 
 # split data and explore on train
 def split(df, stratify_by='Casualty_class'):
@@ -20,10 +21,8 @@ def split(df, stratify_by='Casualty_class'):
 
 
 
-
-
 # Chi-square feature selection
-def feature_chi2(X_train, X_validate, X_test, k = 5):
+def feature_chi2(X_train, X_validate, X_test, y_train, k = 25):
      
     # Feature selection
     fs = SelectKBest(score_func = chi2, k = k)
@@ -38,3 +37,5 @@ def feature_chi2(X_train, X_validate, X_test, k = 5):
     X_test_fs = X_test.iloc[:, cols]
     
     return X_train_fs, X_validate_fs, X_test_fs
+
+
